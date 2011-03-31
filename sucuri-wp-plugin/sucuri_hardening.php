@@ -41,7 +41,7 @@ function sucuri_harden_status($status, $type, $messageok, $messagewarn,
              '<input type="hidden" name="wpsucuri-doharden" value="wpsucuri-doharden" />'.
              '<input type="hidden" name="'.$type.'" '.
              'value="'.$type.'" />'.
-             '<input type="submit" name="wpsucuri-dohardenform" value="Harden it!" />'.
+             '<input class="button-primary" type="submit" name="wpsucuri-dohardenform" value="Harden it!" />'.
              '</form><br />';
         }
     }
@@ -382,7 +382,7 @@ function sucuri_harden_keys()
          '<input type="hidden" name="wpsucuri-doharden" value="wpsucuri-doharden" />'.
          '<input type="hidden" name="sucuri_harden_keys" '.
          'value="sucuri_harden_keys" />'.
-         '<input type="submit" name="wpsucuri-dohardenform" value="'.$rm.'" />'.
+         '<input class="button-primary" type="submit" name="wpsucuri-dohardenform" value="'.$rm.'" />'.
          '</form><br />';
     echo '<b>*You will be logged out after creating new keys. '.
          '</b>';
@@ -597,7 +597,7 @@ function sucuri_harden_perms()
          '<input type="hidden" name="wpsucuri-doperms" value="wpsucuri-doperms" />'.
          '<input type="hidden" name="sucuri_harden_perms" '.
          'value="sucuri_harden_perms" />'.
-         '<input type="submit" name="wpsucuri-dohardenform" value="Scan all your files to check for permission issues!" />'.
+         '<input class="button-primary" type="submit" name="wpsucuri-dohardenform" value="Scan all your files to check for permission issues!" />'.
          '</form>';
 
     if($totalwarns > 0)
@@ -608,7 +608,7 @@ function sucuri_harden_perms()
          'value="sucuri_harden_perms" />'.
          '<input type="hidden" name="sucuri_harden_fixperms" '.
          'value="sucuri_harden_fixperms" />'.
-         '<input type="submit" name="wpsucuri-dohardenform" value="Fix the permission issues identified!" />'.
+         '<input class="button-primary" type="submit" name="wpsucuri-dohardenform" value="Fix the permission issues identified!" />'.
          '</form><br />';    
     }
 }

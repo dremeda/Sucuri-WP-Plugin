@@ -197,7 +197,7 @@ function sucuri_malwarescan_page()
 
     <form action="" method="post">
     <input type="hidden" name="wpsucuri-doscan" value="wpsucuri-doscan" />
-    <input type="submit" name="wpsucuri_doscanrun" value="Scan this site now!" />
+    <input class="button-primary" type="submit" name="wpsucuri_doscanrun" value="Scan this site now!" />
     </form>
 
     <?php
@@ -317,7 +317,7 @@ function sucuri_settings_page()
 
     <tr><td> &nbsp; </td> <td> &nbsp; </td></tr>
 
-    <tr><td> &nbsp; <input type="submit" name="wpsucuri_domodify" value="Save values"></td><td> &nbsp; </td></tr>
+    <tr><td> &nbsp; <input class="button-primary" type="submit" name="wpsucuri_domodify" value="Save values"></td><td> &nbsp; </td></tr>
     </table>
     
     </form>
