@@ -1,0 +1,56 @@
+ --------------------------------------
+ Sucuri Security Wordpress Plugin
+ --------------------------------------
+
+ Author: http://sucuri.net
+ Contributors: Daniel B. Cid, Alex Guensche
+ Tested on: 3.0.4, 3.0.5 and 3.1
+ Version: 1.5.2
+ Page: http://wordpress.sucuri.net/
+
+ This plugin will monitor your Wordpress installation for the latest attacks and provide
+ visibility of what is happening inside. It will also keep track of system events, like logins,
+ logouts, failed logins, new users, etc.
+
+ (It was forked and expanded from the wpsyslog2 plugin: http://ossec.net/wpsyslog2).
+
+ ------------
+ Description
+ ------------
+
+ This plugin will monitor your WordPress installation for the latest attacks (hacks) and provide
+ visibility of what is happening inside WordPress. It will also keep track of system events, like logins,
+ logouts, failed logins, new users, new posts, etc.
+
+
+ -------------
+ Installation 
+ -------------
+
+ 1 - Download the plugin file from http://sucuri.net/wordpress-security
+ 2 - Go to the Wordpress Plugin menu and activate it.
+ 3 - That's it!
+
+
+ --------
+ Credits
+ --------
+
+ Wpsyslog2 is a modification of the WPsyslog 0.1 (GPL) released by Alex G&#252;nsche ( http://www.zirona.com/software/donate ).
+ We modified the code to fix some bugs, add support for Unix syslog and add a few more actions (including failed logins).
+ Original link: http://www.zirona.com/software/wpsyslog-wordpress-syslog
+
+
+ ------------------------------
+ Credits from original version
+ ------------------------------
+
+ This plugin was developed during a project with the German "Menschen für Tierrechte" (Humans for Animal Rights). This is an organisation of 
+ activists who advocate animal rights and fight against abuse of animals. They generously decided to donate this work to the general public 
+ by letting Zirona put it under the GNU GPL and allowing us to promote and distribute it. (In turn, we have extended it with a couple of additional features.)
+
+ Please support the work of Humans for Animal Rights, e.g. by placing a link to [Humans for Animal Rights](http://www.tierrechte.de/ "www.tierrechte.de") and 
+ spreading the word. Not (only) because of this plugin, but generally for a better treatment of the beings on this planet.
+
+
+ #EOF
